@@ -1,4 +1,4 @@
-[
+const produits = [
   {
     "code": "141",
     "designation": "BISCOTTES FROMENT 300G 36 TRANCHES BELLE FRANCE",
