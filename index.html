@@ -645,6 +645,8 @@
             orderData.totalWeight = totalPoids.toFixed(2);
 
             // Envoi des données au serveur
+            const orderText = JSON.stringify(orderData, null, 2);
+
             fetch(serverUrl, {
                 method: 'POST',
                 headers: {
